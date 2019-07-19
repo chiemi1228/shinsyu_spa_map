@@ -10,12 +10,42 @@ html,body{
 h1 {
     padding: 50px;
     font-size: 30px;
+    color: #005500;
     }
+
+h4 {
+    color: #550000;
+    margin: 10px;
+}
 
  ul {
      list-style: none;
- }   
+ }
+
+ img {
+     margin: 0 10px;
+ }
+ 
+ p {
+  max-width: 450px;
+  color: #220000;
+  font-weight: 500;
+ }
+
+   .map_info {
+    display: flex; 
+   }
+
+
+
    .left_map{
        width: 585px;
-       float: left;
+   }
+
+   .right_info {
+       padding: 20px;
+   }
+   .right-info_text {
+    display: flex;
+    justify-content: center;
    }
