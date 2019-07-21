@@ -5,21 +5,36 @@ html,body{
         height: 100%;
      }
 
+body {
+font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'  
+}
+
 * ,*:hover{
     box-sizing: border-box;
     }
 
 h1 {
-    padding: 50px;
+    padding: 30px;
     font-size: 30px;
     color: #005500;
+    opacity: 0.7;
+    }
+
+h2 {
+    color: #220000;
+    margin: 5px;
+    padding-left: 60px;
+    font-size: 15px;
+    opacity: 0.7;
+    font-weight: 500;
     }
 
 h4 {
-    color: #550000;
+    color: #330000;
     margin: 5px;
     padding-left: 15px;
     font-size: 20px;
+    opacity: 0.6;
     }
 
 ul {
@@ -35,6 +50,7 @@ ul {
   color: #220000;
   font-weight: 500;
   font-size: 15px;
+  opacity: 0.9;
    }
 
    .map_info {
@@ -50,6 +66,17 @@ ul {
        padding: 20px;
        align-items: flex-end;
    }
+
+   /* .right-info_section {
+    transition: .7s;
+  } */
+
+  .touch_map {
+      color: #ff5e00;
+      opacity: 0.6;
+      font-size: 30px;
+      
+  }
 
    .right-info_title {
     display: flex;
